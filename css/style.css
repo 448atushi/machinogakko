@@ -305,15 +305,16 @@ h1, h2, h3 { color: var(--ink-green); font-weight: 900; }
 .green-band h2 { color: #fff; }
 .green-band .section-head p { color: #D8E8CE; max-width: 640px; margin: 0 auto; font-size: 15px; line-height: 2.1; }
 
-.green-band .band-note {
-  margin: 28px auto 0;
+.band-note {
+  margin: 32px auto 0;
   max-width: 680px;
   font-size: 13.5px;
   line-height: 2;
-  color: #B9D3AC;
   text-align: center;
   text-wrap: pretty;
 }
+
+.green-band .band-note { color: #B9D3AC; }
 
 .band-callout {
   background: rgba(255, 255, 255, .10);
